@@ -1,6 +1,12 @@
-Based on [write-good](https://github.com/btford/write-good).
+All files based on the [Vale implementation](https://github.com/errata-ai/write-good) of [write-good](https://github.com/btford/write-good)'s rules (MIT License), except:
+```
+qiskit-textbook/Acronyms.yml
+qiskit-textbook/SentenceLength.yml
+qiskit-textbook/OxfordComma.yml
+qiskit-textbook/Wordiness.yml
+```
 
-> Naive linter for English prose for developers who can't write good and wanna learn to do other stuff good too.
+Which are taken from the [Vale implementation of the Microsoft style guide](https://github.com/errata-ai/Microsoft) (MIT License).
 
 ```
 The MIT License (MIT)
