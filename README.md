@@ -46,25 +46,25 @@ The Qiskit Textbook isn’t constrained to static text and images. There are alr
   - Code examples are practice for the real world. Write code to the standard you’d expect to see in Qiskit. We’ve recently started using pylint to test some of the code, you can see the pylintrc [here](https://github.com/qiskit-community/platypus/blob/main/notebooks/.pylintrc). 
 
 - **Quizzes** are best used to check the reader hasn’t accidentally got the wrong message. Think of common misconceptions, or guess how your text could be misinterpreted, kind of like error-handling. We want the reader to think either “Great, I understood that correctly, I can continue”, or “Wait, what‽ I must have got the wrong end of the stick.” Don’t use these to pick out random facts listed in the paragraphs above.
- ![screenshot of a quiz](examples/images/quiz.png)
+  - <img src="examples/images/quiz.png" width="500px">
 
 - **Tooltips** make the text and equations look friendlier. They can help your writing reach a wider audience by offering extra guidance for those that need it, without annoying those that don’t.
- ![screenshot of a tooltip](examples/images/tooltips.png)
   - Text tooltips are similar to the reminder blocks, but for smaller nuggets of information. You can use text tooltips to keep your text shorter and more focussed by hiding context and definitions. Don’t use them to introduce key concepts, they’re more like reminders, or for bringing people up to speed if they’re not familiar with something. You can also include bits of trivia or interesting observations.
   - Use math tooltips as much as possible, even for things you think should be obvious. Readers can’t google Greek symbols like they can with unfamiliar words. Lots of symbols are often re-used in different contexts, so even mathematically mature readers will benefit from them. If you use the tooltips, you shouldn’t describe variables underneath unless you’re explaining them further (this is better than [splitting attention](https://en.wikipedia.org/wiki/Split_attention_effect) between equations and the sentences underneath).
+  - <img src="examples/images/tooltips.png" width="300px">
 
 
 
 These tools group bits of content together instead of listing it linearly down the page. Grouping content like this helps break up the page, keeps related concepts together (see [contiguity principle](https://en.wikipedia.org/wiki/E-learning_(theory)#Empirically_established_principles)), and stops visual overload.
-- **Tabs** are like bullet points that help keep the page short. Use them for related topics that don’t need to be presented in a specific order. You can add details or interesting facts without convoluting or ruining the flow of the page.
- ![screenshot of tabs](examples/images/tabs.png)
+- **Tabs** are like bullet points that help keep the page short. Use them for related topics that don’t need to be presented in a specific order. You can add details or interesting facts without convoluting or ruining the flow of the page. 
+    - <img src="examples/images/tabs.png" width="500px">
 - **Carousels:** Use these to tell a short story, this works best with images. Carousels are especially useful for showing how the same thing evolves through different states; it’s more natural to see the thing change in the same place, rather than multiple instances spread across the page.
- ![screenshot of a carousel](examples/images/carousel.gif)
+    - <img src="examples/images/carousel.gif" width="500px">
 - **Reminders** are for digressions. Reminders should contain information that either:
   - The reader should already know, and we’re doing them a favour by reminding them or pointing them to helpful resources (see [expertise effect](https://en.wikipedia.org/wiki/Expertise_reversal_effect)). For this, the heading should be “Reminder”.
- ![screenshot of a reminder](examples/images/reminder.png)
   - The reader doesn’t need to know, but might find interesting and gives more context. You can give a more instructive heading here, e.g. “Key experiments in quantum physics”, don’t use “Reminder”.
   - I’m also experimenting with using the details tags in quizzes to give hints, you can try this too if you think you need it.
+  - <img src="examples/images/reminder.png" width="500px">
 
 ## Tips for writing
 
