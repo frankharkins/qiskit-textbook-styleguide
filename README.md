@@ -23,14 +23,11 @@ We already cover most of the quantum algorithms you’d find in a traditional co
 
 Writers often worry about making their topic seem important, especially when they're trying to justify their research. Sensationalising quantum algorithms can lead to a pretty disappointing experience when the reader is finally presented with a noisy 5-qubit device, or when they learn that future quantum computers are going to take roughly [a billion](https://youtu.be/H1UdcAdw5kg?t=272) times longer per Boolean operation, rendering a whole category of algorithms unfeasible.
 
-Fortunately, we can solve this problem via (#1); if you’re excited about the topic because it’s interesting, or does something cool, then this should be why the reader is interested, not because it’ll lead to sentient AI or self-driving cars. Be honest; explain heuristic algorithms have no guarantees, explain classical computers are tough competitors, and let them decide for themselves if they want to read on.
+Fortunately, we can solve this problem via (#1); if you're excited about the topic because it’s interesting, or does something cool, then this should be why the reader is interested, not because it’ll lead to sentient AI or self-driving cars. Be honest; explain heuristic algorithms have no guarantees, explain classical computers are tough competitors, and let them decide for themselves if they want to read on.
 
-### 3. Write for the audience (this is WIP)
+### 3. Write for the audience
 
-Imagine someone (undergrad maybe) comes to your desk. They say “I found this paper on the arXiv on <topic>, but I don’t get it.” This is who we’re writing for. If they can read the arXiv then they don’t need the textbook. (TODO: review this; do we only want people below arXiv-reading, or even lower?).
-
-We trust the reader actually wants to read the page. Keep it conversational.
-
+Imagine someone (undergrad maybe) comes to your desk. They say "I found this paper on the arXiv on <topic>, but I don’t get it." This is who we’re writing for. If they can read the arXiv then they don’t need the textbook. Keep the writing conversational, it actually helps readers learn (see [personalization principle](https://en.wikipedia.org/wiki/E-learning_(theory)#Empirically_established_principles)).
 
 ### 4. Take full advantage of the format
 
@@ -43,9 +40,9 @@ The Qiskit Textbook isn’t constrained to static text and images. There are alr
 - **Code cells** are potentially the most powerful interactive elements in the textbook: 
   - Working code makes it harder to hide things from the reader. If there’s a specific part of an algorithm we glossed over, they can dig into that, and we can’t hide circuits (or other things) as black boxes. Bear this in mind when you write code: Keep the logic clear, add useful comments to your code, try not to use advanced Python features, and (where possible) write simple functions yourself instead of importing.
   - Live code means readers can experiment and explore. If they want to know how the code behaves on different inputs, or what’ll happen if they modify a function, they can try it. Write code examples with this in mind. Try not to hard-code circuits. Sometimes it’s unavoidable, but patterns are easier to spot if the reader can change a variable and see how the code reacts.
-  - Code examples are practice for the real world. Write code to the standard you’d expect to see in Qiskit. We’ve recently started using pylint to test some of the code, you can see the pylintrc [here](https://github.com/qiskit-community/platypus/blob/main/notebooks/.pylintrc). 
+  - Code examples are practice for the real world. Write code to the standard you’d expect to see in Qiskit. We've recently started using pylint to test some of the code, you can see the pylintrc [here](https://github.com/qiskit-community/platypus/blob/main/notebooks/.pylintrc). 
 
-- **Quizzes** are best used to check the reader hasn’t accidentally got the wrong message. Think of common misconceptions, or guess how your text could be misinterpreted, kind of like error-handling. We want the reader to think either “Great, I understood that correctly, I can continue”, or “Wait, what‽ I must have got the wrong end of the stick.” Don’t use these to pick out random facts listed in the paragraphs above.
+- **Quizzes** are best used to check the reader hasn’t accidentally got the wrong message. Think of common misconceptions, or guess how your text could be misinterpreted, kind of like error-handling. We want the reader to think either "Great, I understood that correctly, I can continue", or "Wait, what‽ I must have got the wrong end of the stick." Don’t use these to pick out random facts listed in the paragraphs above.
   - <img src="examples/images/quiz.png" width="500px">
 
 - **Tooltips** make the text and equations look friendlier. They can help your writing reach a wider audience by offering extra guidance for those that need it, without annoying those that don’t.
