@@ -27,7 +27,7 @@ Fortunately, we can solve this problem via (#1); if you're excited about the top
 
 ### 3. Write for the audience
 
-Imagine someone (undergrad maybe) comes to your desk. They say "I found this paper on the arXiv on &lt;topic&gt;, but I don’t get it." This is who we’re writing for. If they can read the arXiv then they don’t need the textbook. Keep the writing conversational, it actually helps readers learn (see [personalization principle](https://en.wikipedia.org/wiki/E-learning_(theory)#Empirically_established_principles)).
+Try to imagine your target audience and consider things that may not be obvious to them. Keep the writing conversational, it actually helps readers learn (see [personalization principle](https://en.wikipedia.org/wiki/E-learning_(theory)#Empirically_established_principles)).
 
 ### 4. Take full advantage of the format
 
