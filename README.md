@@ -32,7 +32,7 @@ Try to imagine your target audience and consider things that may not be obvious 
 ### 4. Take full advantage of the format
 
 Before we get onto flashy interactive things, print media already comes with a lot of often-overlooked tools:
-- Don’t describe things that are better shown as images and vice-versa. If drawing isn’t your strong point, it's ok to do a sketch on paper and take a photo. 
+- Don’t describe things that are better shown as images and vice-versa. If drawing isn’t your strong point, it's ok to do a sketch on paper and take a photo - we can redraw it for you before publication.
 - Use bullet points for lists, don’t try to make it a connected paragraph.
 - Use regular headings and subheadings to break up the chapter (see [segmenting principle](https://en.wikipedia.org/wiki/E-learning_(theory)#Empirically_established_principles)).
 
